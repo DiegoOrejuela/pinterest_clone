@@ -57,3 +57,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Devise is a flexible authentication solution for Rails based on Warden. Read more: https://github.com/heartcombo/devise
 gem 'devise'
+
+group :development, :test do
+  # Solargraph provides a comprehensive suite of tools for Ruby programming. Read more: https://github.com/castwide/solargraph
+  gem 'solargraph'
+end
