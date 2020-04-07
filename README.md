@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Install Boostrap with Ruby on Rails 6
+https://www.youtube.com/watch?v=BIxd501hP-g
+
