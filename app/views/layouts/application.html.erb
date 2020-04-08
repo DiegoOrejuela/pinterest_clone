@@ -20,6 +20,11 @@
           <% if signed_in? %>
             <li class="nav-item active">
               <a class="nav-link"
+                <%= link_to "Nuevo Pin", new_pin_path %>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link"
                 <%= link_to "Salir", destroy_user_session_path %>
               </a>
             </li>
